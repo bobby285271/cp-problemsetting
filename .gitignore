@@ -1,0 +1,4 @@
+a.out
+*/data/out/*.in
+*.gen.md
+.vscode
