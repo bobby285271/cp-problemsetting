@@ -1,4 +1,6 @@
 a.out
 */data/out/*.in
+*/data/bin/*.out
+*/data/bin/*.exe
 *.gen.md
 .vscode
