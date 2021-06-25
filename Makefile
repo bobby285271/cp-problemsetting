@@ -1,3 +1,5 @@
+# 在题目数据目录（而不是根目录）下执行 make
+
 CC := g++
 OBJ := bin
 POSTFIX := out
