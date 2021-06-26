@@ -7,6 +7,10 @@ echo "-------------------"
 
 for PROB in ${DIR}/*/
 do
+    if [ ! -f ${PROB}/text/1-statement.md ]
+    then
+        continue
+    fi
     echo $( basename ${PROB} )
     source ${PROB}/limits.sh
     DEST_FILE="statement-$( basename ${PROB} ).gen.md"
